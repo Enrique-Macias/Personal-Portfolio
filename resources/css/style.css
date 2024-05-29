@@ -1,0 +1,58 @@
+* {
+    font-family: monospace; 
+}
+
+body {
+    background-color: #615EFC;
+    margin: 0; 
+    padding: 0;
+}
+
+.intro {
+    width: 80%;
+    height: 700px;
+    max-height: 700px;
+    margin: 0 auto;
+    background-color: azure;
+    padding: 0;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 40px;
+    overflow: hidden; 
+}
+
+.top-bar {
+    background-color: grey;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px; 
+    box-sizing: border-box; 
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+}
+
+.circle:nth-child(2) {
+    background-color: yellow;
+}
+
+.circle:nth-child(3) {
+    background-color: green;
+}
+
+.content {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 35px;
+}
